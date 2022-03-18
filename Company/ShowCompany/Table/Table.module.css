@@ -1,0 +1,64 @@
+.table {
+  margin-top: 20px;
+}
+.table th {
+  text-transform: capitalize;
+}
+
+.table td {
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.table tr {
+  /* text-align: center; */
+}
+
+.table a {
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}
+
+.table input {
+  margin: 0 !important;
+  width: 80%;
+}
+
+.table td {
+  vertical-align: middle !important;
+}
+
+.skill {
+  background: #777;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+
+.skillCross {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tableParent {
+  position: relative;
+}
+
+.tableChild {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: green !important;
+  z-index: 1000;
+}
+/* .contactsmodal {
+  column-count: 2;
+}
+.tablee {
+  column-count: 4;
+} */

@@ -1,0 +1,16 @@
+.select {
+  width: 100%;
+}
+.select select:focus {
+  box-shadow: none;
+}
+
+.select label {
+  text-transform: capitalize;
+  width: 100%;
+  font-size: 14px;
+}
+
+.select select {
+  margin-top: 5px;
+}

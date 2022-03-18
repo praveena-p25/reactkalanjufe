@@ -1,0 +1,23 @@
+.table {
+  margin-top: 20px;
+  text-align: left;
+}
+.table th {
+  text-transform: capitalize;
+  text-align: left;
+  cursor: text;
+}
+
+.table tr {
+  text-align: center;
+  text-align: left;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

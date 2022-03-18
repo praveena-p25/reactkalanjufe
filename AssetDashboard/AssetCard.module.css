@@ -1,0 +1,56 @@
+.card .card-title {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .card-subtitle {
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #a1aab2;
+  margin-top: -0.375rem;
+}
+
+.cardbody {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.cardtitle {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  height: 50px;
+}
+.card {
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* height: 250px; */
+}
+
+.card:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.tag {
+  color: #574b90;
+}
+.tag:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.amount {
+  padding-top: 10px;
+  color: #713045;
+}
+.amount:hover {
+  text-decoration: underline;
+  cursor: grab;
+  transform: scale(1.05);
+}

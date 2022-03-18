@@ -1,0 +1,18 @@
+.tag {
+  background-color: yellow;
+  border-radius: 10%;
+  padding: 0px 2px;
+  font-weight: 500;
+}
+
+.history {
+  background-color: rgba(184, 182, 182, 0.109);
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+}
+.clearAll {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}

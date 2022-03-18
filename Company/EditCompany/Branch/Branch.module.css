@@ -1,0 +1,18 @@
+.contacts button {
+  display: block;
+  margin: 0 auto;
+}
+
+.contacts button:focus {
+  box-shadow: none;
+}
+
+/* .form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+} */
+.searchbranch {
+  margin-top: 10px;
+  padding: 15px;
+}

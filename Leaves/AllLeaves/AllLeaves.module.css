@@ -1,0 +1,16 @@
+.AllLeaves {
+  margin-top: 20px;
+}
+
+.borderBox :focus {
+  border: 2px solid #2684ff !important;
+  box-shadow: 0 0 0 1px #2684ff !important;
+}
+
+.clearAll {
+  /* color: #018273; */
+  cursor: pointer;
+  font-size: 1 rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}

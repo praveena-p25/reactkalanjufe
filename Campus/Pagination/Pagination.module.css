@@ -1,0 +1,39 @@
+.pagination {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end !important;
+  flex-wrap: wrap;
+}
+
+.pagination nav ul {
+  margin-bottom: 0;
+}
+
+.perPage {
+  margin-top: 5px;
+}
+
+.perPage:focus {
+  box-shadow: none !important;
+}
+
+.pagination li {
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.pagination label {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.pagination nav {
+  z-index: 0;
+}

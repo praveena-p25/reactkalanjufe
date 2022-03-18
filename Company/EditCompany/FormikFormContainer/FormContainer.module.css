@@ -1,0 +1,107 @@
+.formContainer {
+}
+
+.formContainer label {
+  text-transform: capitalize;
+  width: 100% !important;
+}
+
+.container form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.toggleSwitch {
+  width: 60px;
+}
+
+/* @media (max-width: 1000px) {
+  .container form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .container form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+@media (max-width: 600px) {
+  .container form {
+    display: block;
+    /* grid-template-columns: repeat(1, 1fr) !important; */
+  }
+  .submit {
+    margin-top: 10px !important;
+  }
+}
+
+.cancel {
+  /* grid-column: 1; */
+  border: 1px solid #d9d9d9 !important;
+  color: #4b4b5a !important;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.errorMessage {
+  color: #f05455;
+  font-size: 0.8em;
+  padding-top: 5px;
+  padding-left: 5px;
+  opacity: 0.9;
+}
+
+.cancel:hover {
+  color: #fff !important;
+}
+
+.submit {
+  /* margin-top: 10px; */
+}
+
+.submit:focus,
+.cancel:focus {
+  box-shadow: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler h5 {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.gstSave {
+  height: 38px;
+  margin-top: 25px;
+}
+
+.addressForm {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.hide {
+  display: none;
+}
+
+.select:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.date {
+  text-transform: uppercase;
+}

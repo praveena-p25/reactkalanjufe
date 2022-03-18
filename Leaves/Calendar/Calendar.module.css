@@ -1,0 +1,15 @@
+.Calendar {
+  margin-top: 20px;
+}
+
+.eventDisplay {
+  width: 100%;
+  height: max-content;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 5px;
+  cursor: pointer;
+}

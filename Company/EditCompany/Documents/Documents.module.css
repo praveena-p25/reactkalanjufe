@@ -1,0 +1,33 @@
+.documents h5 {
+  margin: 20px 0;
+}
+
+.upload {
+  width: 30%;
+}
+
+.upload > * {
+  margin: 5px 0;
+}
+
+.documents button:focus {
+  box-shadow: none;
+}
+
+.documentupload {
+  padding: 15px;
+}
+
+.upload {
+}
+
+.documentnumber {
+}
+
+.docnum {
+  font-weight: bold;
+}
+
+.btn btn-primary {
+  margin-left: 20px;
+}

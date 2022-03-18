@@ -1,0 +1,108 @@
+.table {
+  margin-top: 10px;
+  text-align: left;
+}
+.table th {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.table tr {
+  text-align: left;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}
+
+.table td {
+  max-width: 800px;
+  width: 10%;
+  word-wrap: break-word;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 10px !important;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.base {
+  width: fit-content;
+  background-color: #42a1f3;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.datatable td {
+  max-width: 300px !important;
+  word-wrap: break-word;
+}
+
+.boldText {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.flexDisplay {
+  display: flex;
+  align-items: flex-end;
+}
+
+.table td {
+  max-width: 300px;
+  word-wrap: break-word !important;
+  vertical-align: middle;
+  padding-bottom: 0px;
+  padding-top: 1px;
+}
+.table td a {
+  max-width: 200px;
+  word-wrap: break-word !important;
+}
+
+.table td {
+  white-space: normal !important;
+}
+
+.bggreen {
+  font-weight: 600;
+  color: #15a102f5 !important;
+}
+
+.bgred {
+  font-weight: 600;
+  color: #e70505 !important;
+}
+.bgyellow {
+  font-weight: 600;
+  color: #f8aa00e1 !important;
+}
+.bgblue {
+  font-weight: 600;
+  color: #0e4877e1 !important;
+}
+
+.bgnone {
+  font-weight: 600;
+}
+
+.errorMessage {
+  color: #ff6565;
+  padding: 0.5em 0.2em;
+  height: 1em;
+  font-size: 0.8em;
+  margin-bottom: 11px !important;
+}

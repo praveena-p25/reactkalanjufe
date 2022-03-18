@@ -1,0 +1,54 @@
+.modalLink {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+.modalLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.actionColumn {
+  display: flex;
+  justify-content: flex-start;
+  color: #0275d8;
+}
+
+.icons {
+  padding-right: 10px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.leaveInfo {
+  margin-top: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 30px;
+}
+
+.container.form {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.leaveInfo label {
+  font-weight: 600;
+
+  max-width: 200px;
+  overflow-wrap: break-word;
+  font-size: 15px;
+  color: #4b4b5a;
+}
+
+.leaveInfo p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}

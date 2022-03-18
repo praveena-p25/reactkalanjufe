@@ -1,0 +1,15 @@
+.Waitingforapproval {
+  margin-top: 20px;
+}
+
+svg {
+  margin: 2%;
+}
+
+.clearAll {
+  /* color: #018273; */
+  cursor: pointer;
+  font-size: 1 rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}

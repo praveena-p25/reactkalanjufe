@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #4b4b5a;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: fit-content;
+}
+
+.button {
+  text-transform: capitalize;
+  /* float: right !important; */
+}
+
+.button:focus,
+.button:active {
+  box-shadow: none !important;
+}
+
+.container h1 {
+  margin-bottom: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+.invoiceContainer {
+  align-items: center;
+}
+
+.invoiceContainer .button {
+  /* width: 23% !important; */
+  margin: 10px 0;
+}
+
+.btnclass {
+  float: right;
+}
+
+.container .button {
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .invoiceContainer .button {
+    /* width: 23% !important; */
+    margin: 10px 0;
+  }
+
+  .container .button {
+    /* width: 45% !important; */
+    margin: 10px 0;
+  }
+
+  .btnclass {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .invoiceContainer .button {
+    width: 48% !important;
+    margin: 10px 0;
+  }
+
+  .container .button {
+    margin: 10px 0;
+  }
+
+  .btnclass {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .invoiceContainer .button {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .container .button {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .btnclass {
+    float: none;
+  }
+}

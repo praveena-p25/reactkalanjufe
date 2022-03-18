@@ -1,0 +1,203 @@
+.searchFilter input:focus,
+.searchFilter select:focus {
+  box-shadow: none !important;
+}
+.button {
+  text-transform: capitalize;
+  /* margin-bottom: 100%; */
+  float: right;
+  /* margin-left: 18%; */
+}
+
+.button:focus,
+.button:active {
+  box-shadow: none !important;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#camp1 {
+  background-color: #ffffff;
+}
+/* .searchFilter input,
+.searchFilter select {
+  width: 400px;
+} */
+
+.selectInfo {
+  width: 140px;
+}
+
+.clearAll {
+  /* color: #018273; */
+  cursor: pointer;
+  font-size: 1 rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.clearAll:hover {
+  text-decoration: underline;
+}
+
+.head p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.handleForm {
+  /* padding: 1rem;
+  margin-top: 2rem; */
+  margin-bottom: 1rem;
+  /* background-color: #ffffff; */
+}
+.handleForm > * {
+  margin-left: 10px;
+}
+
+.cardBody {
+  /* flex: 1 1 auto; */
+  min-height: 100%;
+  padding: 1.25rem;
+  width: 18%;
+}
+
+.cardTitle {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  overflow-wrap: normal !important;
+}
+
+.cardBody h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+}
+
+.card .cardTitle {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardGreen {
+  background-color: #90ee90;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardGreen:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardBlue:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardOrange:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardViolet:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card-pink:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardYellow:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card-lightblue:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardBrown:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cardSalary {
+  overflow-wrap: normal !important;
+}
+.cardBlue {
+  background-color: #add8e6;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardOrange {
+  background-color: #f4a460;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardYellow {
+  background-color: #f0e68c;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-pink {
+  background-color: #ffb6c1;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardViolet {
+  background-color: #dda0dd;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-lightblue {
+  background-color: #00bfff;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardBrown {
+  background-color: #ffe4b5;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selectStyle {
+  min-width: 140px;
+  max-width: 140px;
+  box-shadow: none;
+}
+
+.datePicker {
+  width: 225px !important;
+  height: 38px !important;
+  border: 1px solid #ced4da;
+  background-clip: padding-box;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.datePicker:focus {
+  outline: none;
+  border: 1px solid #8dbafa;
+}

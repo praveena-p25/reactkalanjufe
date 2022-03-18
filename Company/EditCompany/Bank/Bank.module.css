@@ -1,0 +1,21 @@
+.contacts button {
+  display: block;
+  margin: 0 auto;
+}
+
+.contacts button:focus {
+  box-shadow: none;
+}
+
+/* .form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+} */
+
+.bankhead {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 7px;
+  font-weight: bold;
+}

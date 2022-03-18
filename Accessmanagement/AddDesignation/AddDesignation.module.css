@@ -1,0 +1,75 @@
+.add {
+  text-transform: capitalize;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add {
+  color: rgba(0, 0, 0, 0.63);
+  font-weight: bold;
+}
+.add:hover {
+  background-color: rgba(236, 236, 236, 0.993);
+  transform: scale(1.01);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  margin-left: 130px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .submit {
+    margin-top: 10px !important;
+  }
+}
+
+.cancel {
+  grid-column-start: 1;
+  margin-top: 30px;
+}
+
+.submit {
+  margin-top: 30px;
+  margin-left: 1000px;
+}
+
+.submit:focus,
+.cancel:focus {
+  box-shadow: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler h5 {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
